@@ -1,0 +1,19 @@
+.close {
+    position: absolute;
+    z-index: 100;
+    top: 10px;
+    left: 93%;
+    font-size: 26px;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+@media (max-width: 600px) {
+    .close {
+        left: 80%;
+    }
+  }

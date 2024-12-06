@@ -20,8 +20,11 @@ export default function MenuBottom() {
       onChange={handleChange}
       aria-label="icon tabs example"
       centered
-      textColor="secondary"
-      indicatorColor="secondary"
+      TabIndicatorProps={{
+        style: {
+          backgroundColor: "white"
+        }
+      }}
       className='menu-bootom'
     >
       <Tab icon={<FavoriteIcon />} aria-label="favorite" />

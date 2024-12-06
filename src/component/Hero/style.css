@@ -1,0 +1,22 @@
+.section-hero {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-hero h1 {
+    font-family: system-ui;
+    font-size: 76px;
+    margin-bottom: 15px;
+}
+
+.section-hero p {
+    color: gray;
+}
+
+
+@media (max-width: 600px) {
+    .section-hero h1 {
+        font-size: 46px;
+    }
+  }
