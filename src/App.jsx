@@ -9,7 +9,7 @@ function App() {
     <>
       <MenuTop />
       <Grid2 container spacing={2} justifyContent='center' textAlign='center'>
-        <Grid2 size={{ xs: 12, md: 8 }} >
+        <Grid2 size={{ xs: 11, md: 8 }} >
           <ListImage />
         </Grid2>
       </Grid2>
