@@ -11,6 +11,8 @@
 }
 
 .section-hero p {
+    margin: 0 auto;
+    width: 50%;
     color: gray;
 }
 
@@ -18,5 +20,8 @@
 @media (max-width: 600px) {
     .section-hero h1 {
         font-size: 46px;
+    }
+    .section-hero p {
+        width: 80%;
     }
   }
