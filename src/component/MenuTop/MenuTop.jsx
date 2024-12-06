@@ -18,7 +18,7 @@ export default function MenuTop() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" elevation={0} style={{ backgroundColor: 'white', color: 'black' }}>
         <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 2 }}>
             <IconButton
               size="large"
               edge="start"
@@ -48,7 +48,7 @@ export default function MenuTop() {
               edge="start"
               color="inherit"
               aria-label="menu"
-              sx={{ mr: 2 }}
+              sx={{flexGrow: 1}}
             >
               <MenuIcon />
             </IconButton>

@@ -11,7 +11,7 @@ function App() {
       <MenuTop />
       <Hero />
       <Grid2 container spacing={1} justifyContent='center' textAlign='center'>
-        <Grid2 size={{ xs: 11, md: 9 }}>
+        <Grid2 size={{ xs: 11, md: 12 }}>
           <ListImage />
         </Grid2>
       </Grid2>
