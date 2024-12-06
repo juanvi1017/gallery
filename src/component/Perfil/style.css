@@ -1,0 +1,48 @@
+.section-perfil {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.section-perfil h1 {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-family: system-ui;
+    font-size: 76px;
+    margin-bottom: 15px;
+}
+
+.section-perfil img {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.section-perfil p {
+    font-size: 20px;
+    float: left;
+    margin-top: 10px;
+    text-align: justify;
+    width: 68%;
+    color: gray;
+}
+
+
+@media (max-width: 600px) {
+    .section-perfil h1 {
+        font-size: 40px;
+    }
+    .section-perfil img {
+        margin: 0px 20px;
+        width: 90%;
+    }
+    .section-perfil p {
+        font-size: 16px;
+        margin: 10px 20px;
+        width: 90%;
+    }
+    .parrafo {
+        margin-bottom: 100px !important;
+    }
+  }

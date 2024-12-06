@@ -40,7 +40,7 @@ export default function MenuTop() {
               <GitHubIcon />
             </IconButton>
           </Typography>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 2 }}>
             GALLERY
           </Typography>
           <IconButton
@@ -48,7 +48,7 @@ export default function MenuTop() {
               edge="start"
               color="inherit"
               aria-label="menu"
-              sx={{flexGrow: 1}}
+              sx={{mr: 2}}
             >
               <MenuIcon />
             </IconButton>
