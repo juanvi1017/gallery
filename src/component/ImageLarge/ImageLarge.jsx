@@ -10,7 +10,7 @@ export default function ImageLarge({ open, onClose, data }) {
     return (
         <Dialog
             fullWidth
-            maxWidth='md'
+            maxWidth='sm'
             open={open}
             onClose={onClose}
         >
