@@ -20,7 +20,7 @@ export default function ImageLarge({ open, onClose, data }) {
                 src={`${data.urls.small}`}
                 alt={`${data.slug}`}
                 loading="lazy"
-                style={{width: '100%', height: '90vh'}}
+                style={{width: '100%', height: '88vh'}}
             />
         </Dialog>
     );
